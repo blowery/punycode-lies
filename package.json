@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -d src/index.js"
+    "build": "webpack -d src/index.js",
+    "start": "npm run build && node dist/main.js"
   },
   "author": "Ben Lowery <ben@blowery.org> (http://b19y.com)",
   "license": "ISC",

@@ -1,2 +1,2 @@
 const p = require( 'punycode' );
-console.log( p.version );
+console.log( "You're running punycode@" + p.version );
